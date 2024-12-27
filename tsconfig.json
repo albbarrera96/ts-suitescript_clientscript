@@ -1,21 +1,20 @@
 {
   "compilerOptions": {
     "module": "amd",
-    "target": "ESNext",
-    "sourceMap": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
+    "target": "ES2020",
+    "sourceMap": false,
     "noUnusedLocals": false,
     "moduleResolution": "node",
     "newLine": "LF",
     "baseUrl": ".",
     "allowJs": true,
-    "lib": ["ESNext", "dom"],
+    "lib": ["ES2020", "dom"],
     "outDir": "src/FileCabinet/SuiteScripts",
     "paths": {
       "N": ["node_modules/@hitc/netsuite-types/N"],
-      "N/*": ["node_modules/@hitc/netsuite-types/N/*"],
-    },
+      "N/*": ["node_modules/@hitc/netsuite-types/N/*"]
+    }
   },
-  "exclude": ["node_modules"],
+  "include": ["src/ts/**/*.ts"],
+  "exclude": ["node_modules"]
 }
