@@ -1,0 +1,9 @@
+{
+    "name": "ts_clientscript",
+    "version": "1.0.0",
+    "description": "This a sample project to demonstrate how to use TypeScript in NetSuite SuiteScript",
+    "devDependencies": {
+        "@hitc/netsuite-types": "^2024.2.7",
+        "typescript": "^5.6.3"
+    }
+}
