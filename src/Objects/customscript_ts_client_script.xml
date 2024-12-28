@@ -1,6 +1,6 @@
 <clientscript scriptid="customscript_ts_client_script">
   <description>The present Script should run a search returning all sales orders related to a certain customer</description>
-  <isinactive>F</isinactive>
+  <isinactive>T</isinactive>
   <name>TS ClientScript test</name>
   <notifyadmins>F</notifyadmins>
   <notifyemails></notifyemails>
